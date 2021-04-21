@@ -1,6 +1,6 @@
 defmodule InmanaWeb.WelcomeController do
   @moduledoc """
-  A controller module to welcome Inmana users.
+  Inmana Welcome controller.
   """
   use InmanaWeb, :controller
 

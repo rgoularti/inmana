@@ -1,4 +1,7 @@
 defmodule InmanaWeb.Telemetry do
+  @moduledoc """
+  Inmana Telemetry module.
+  """
   use Supervisor
   import Telemetry.Metrics
 

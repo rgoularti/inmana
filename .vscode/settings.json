@@ -1,0 +1,7 @@
+{
+    "elixir.credo.ignoreWarningMessages": true,
+    "elixir.credo.lintEverything": true,
+    "elixir.credo.strictMode": true,
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.suggestSpecs": false
+}

@@ -1,7 +1,11 @@
 {
+    // Editor settings
+    "editor.formatOnSave": true,
+    // Elixir Credo settings
     "elixir.credo.ignoreWarningMessages": true,
     "elixir.credo.lintEverything": true,
     "elixir.credo.strictMode": true,
+    // ElixirLS settings
     "elixirLS.dialyzerEnabled": false,
     "elixirLS.suggestSpecs": false
 }

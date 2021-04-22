@@ -1,0 +1,13 @@
+defmodule InmanaWeb.SuppliesView do
+  @moduledoc """
+  Inmana Supplies view.
+  """
+  use InmanaWeb, :view
+
+  def render("create.json", %{supply: supply}) do
+    %{
+      message: "Supply created!",
+      supply: supply
+    }
+  end
+end

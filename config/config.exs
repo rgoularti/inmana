@@ -10,9 +10,13 @@ use Mix.Config
 config :inmana,
   ecto_repos: [Inmana.Repo]
 
+# Configures Inmana's Repository
 config :inmana, Inmana.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
+
+# Configures Inmana's Mailer
+config :inmana, Inmana.Mailer, adapter: Bamboo.LocalAdapter
 
 # Configures the endpoint
 config :inmana, InmanaWeb.Endpoint,
